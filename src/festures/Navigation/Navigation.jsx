@@ -15,7 +15,7 @@ const Navigation = () => {
         <Link to={{ pathname: "/cart" }}>Korpa</Link>
         <Link to={{ pathname: "/partners" }}>Partneri</Link>
         <Link to={{ pathname: "/about" }}>O nama</Link>
-        <Link to={{ pathname: "/contact" }}>kontakt</Link>
+        <Link to={{ pathname: "/contact" }}>Kontakt</Link>
       </div>
       <div className="logos">
         <img src={face} alt="faceLogo" />

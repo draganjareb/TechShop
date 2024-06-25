@@ -1,0 +1,113 @@
+.pageTwoHolder {
+  margin: 0 auto;
+  padding-top: 220px;
+  max-width: 1200px;
+  width: 95%;
+}
+.pageTwoHolder h2 {
+  font-size: 55px;
+  font-style: italic;
+  text-shadow: 1px 3px grey;
+  text-align: center;
+  color: rgb(62, 62, 83);
+}
+
+.sides {
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  max-width: 85px;
+  height: 85px;
+  width: 100%;
+  outline: none;
+  position: absolute;
+}
+
+.sides:hover {
+  background-color: #efe9e9;
+}
+
+#prev-slide {
+  position: relative;
+  left: -45px;
+  top: 180px;
+}
+
+#next-slide {
+  position: relative;
+  right: -1155px;
+  top: -210px;
+}
+
+.sides:active {
+  border: none;
+}
+
+.leftAndRight {
+  max-width: 85px;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.image {
+  max-width: 325px;
+  /* width: 100%; */
+  height: 380px;
+  /* object-fit: cover; */
+}
+
+.bestOffer .imageList {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 15px;
+  margin-bottom: -20px;
+  font-size: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-top: -45px;
+}
+
+.bestOffer .imageList::-webkit-scrollbar {
+  display: none;
+}
+
+.sliderScrollbar {
+  height: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.scrollbar-track {
+  height: 2px;
+  width: 100%;
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.scrollbar-track:hover {
+  height: 4px;
+}
+
+.scrollbar-thumb {
+  position: absolute;
+  height: 2px;
+  width: 33%;
+  background: #000;
+  border-radius: inherit;
+  cursor: grab;
+}
+
+.scrollbar-thumb:active {
+  cursor: grabbing;
+  height: 4px;
+}
+
+.scrollbar-thumb::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: -10px;
+}
