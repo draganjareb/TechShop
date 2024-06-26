@@ -1,0 +1,71 @@
+.pageThreeHolder {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.pageThreeHolder h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.firstOfferText {
+  max-width: 550px;
+  width: 100%;
+  text-align: left;
+}
+
+.samsungFoldTV {
+  max-width: 500px;
+  width: 100%;
+}
+
+.firstOffer {
+  display: flex;
+  gap: 100px;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.zFold {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.firstOfferText h2 {
+  font-size: 45px;
+  margin: 0;
+}
+
+.secondOffer {
+  display: flex;
+  gap: 100px;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.secondOfferText {
+  max-width: 550px;
+  width: 100%;
+  text-align: left;
+}
+
+.secondOfferText h2 {
+  font-size: 45px;
+  margin: 0;
+}
+
+.neoTV {
+  font-size: 36px;
+  margin-top: 0;
+}
