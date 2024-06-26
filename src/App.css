@@ -28,3 +28,7 @@
   color: #888;
 }
 
+.projectHolder {
+  width: 100%;
+  max-width: 1600px;
+}

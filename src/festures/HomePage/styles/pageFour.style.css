@@ -1,0 +1,56 @@
+.fourPageWrapper {
+  background-color: rgb(157, 156, 156);
+  height: 320px;
+  width: 100%;
+  max-width: 1600px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourPageHolder {
+  max-width: 1300px;
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  margin-top: 30px;
+}
+
+.creditCard img {
+  max-width: 100px;
+  width: 100%;
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.creditCard {
+  display: flex;
+}
+
+.creditCards {
+  margin-right: -90px;
+}
+
+.creditCards2 {
+  margin-right: -150px;
+}
+
+.logoss img {
+  max-width: 40px;
+  width: 100%;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.fourPageData p:hover {
+  cursor: pointer;
+  color: rgb(231, 39, 39);
+  font-weight: bold;
+  text-transform: uppercase;
+}
