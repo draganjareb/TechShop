@@ -1,0 +1,26 @@
+.offerNavWrapper {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offerNavHolder {
+  gap: 30px;
+  font-size: 28px;
+  color: black;
+  text-transform: uppercase;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 90px;
+}
+
+.offerNavHolder a:hover {
+  text-shadow: -1px -1px rgb(62, 45, 149);
+  color: rgb(62, 45, 149);
+  font-weight: 600;
+}
