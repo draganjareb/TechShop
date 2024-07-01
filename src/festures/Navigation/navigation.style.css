@@ -30,7 +30,7 @@ body {
 }
 
 .navigationLink a:hover {
-  text-shadow: -2px -2px rgb(62, 45, 149);
+  text-shadow: -1px -1px rgb(62, 45, 149);
   color: rgb(62, 45, 149);
 }
 
