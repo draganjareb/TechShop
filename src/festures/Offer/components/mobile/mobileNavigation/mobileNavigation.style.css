@@ -30,8 +30,24 @@
   max-width: 150px;
   width: 100%;
   height: 100px;
+  cursor: pointer;
 }
 
 .allPhone {
   font-size: 34px;
+  border: none;
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+}
+
+.allPhone:hover {
+  color: blueviolet;
+  font-size: 38px;
+}
+
+.logoButton {
+  border: none;
+  cursor: pointer;
+  background-color: white;
 }

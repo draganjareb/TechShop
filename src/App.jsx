@@ -11,12 +11,12 @@ import Laptop from "./festures/Offer/components/laptop/Laptop";
 import TV from "./festures/Offer/components/TV/TV";
 import Tablets from "./festures/Offer/components/tablets/Tablets";
 import Headphone from "./festures/Offer/components/headphone/Headphone";
-import HuaweiMobile from "./festures/Offer/components/mobile/components/huaweiMobile/HuaweiMobile";
-import SamsungMobile from "./festures/Offer/components/mobile/components/samsungMobile/SamsungMobile";
-import PhoneOffer from "./festures/Offer/components/mobile/components/phoneOffer/PhoneOffer";
-import IPhoneMobile from "./festures/Offer/components/mobile/components/iPhoneMobile/IPhoneMobile";
-import XiamioMobile from "./festures/Offer/components/mobile/components/xiamioMobile/xiamioMobile";
-import NokiaMobile from "./festures/Offer/components/mobile/components/nokiaMobile/NokiaMobile";
+// import HuaweiMobile from "./festures/Offer/components/mobile/components/huaweiMobile/HuaweiMobile";
+// import SamsungMobile from "./festures/Offer/components/mobile/components/samsungMobile/SamsungMobile";
+// import PhoneOffer from "./festures/Offer/components/mobile/components/phoneOffer/PhoneOffer";
+// import IPhoneMobile from "./festures/Offer/components/mobile/components/iPhoneMobile/IPhoneMobile";
+// import XiamioMobile from "./festures/Offer/components/mobile/components/xiamioMobile/xiamioMobile";
+// import NokiaMobile from "./festures/Offer/components/mobile/components/nokiaMobile/NokiaMobile";
 
 const App = () => {
   return (
@@ -35,12 +35,7 @@ const App = () => {
           <Route path="/offer/tv" element={<TV />} />
           <Route path="/offer/tablets" element={<Tablets />} />
           <Route path="/offer/headphone" element={<Headphone />} />
-          <Route path="/offer/mobile/huawei" element={<HuaweiMobile />} />
-          <Route path="/offer/mobile/samsung" element={<SamsungMobile />} />
-          <Route path="/offer/mobile/all" element={<PhoneOffer />} />
-          <Route path="/offer/mobile/iPhone" element={<IPhoneMobile />} />
-          <Route path="/offer/mobile/xiamio" element={<XiamioMobile />} />
-          <Route path="/offer/mobile/nokia" element={<NokiaMobile />} />
+          {/* <Route path="/offer/mobile/all" element={<PhoneOffer />} /> */}
         </Routes>
       </BrowserRouter>
     </div>
