@@ -1,24 +1,73 @@
-import s24 from "../../assets/pictures/Samsung/samsungS24.jpg";
-import s24Ultra from "../../assets/pictures/Samsung/samsungS24Ultra.jfif";
-
-import a55 from "../../assets/pictures/Samsung/samsungA55.jpg";
-import a35 from "../../assets/pictures/Samsung/samsungA35.jpg";
-import zFold from "../../assets/pictures/Samsung/samsungZFold6.jfif";
-
 export const mobileData = [
   {
     id: 1,
     tittle: "Samsung",
-    tipe: "S24",
-    images: { s24 },
+    tipe: "Z Fold 6a",
+    images:
+      "https://admin.mob.hr/uploads/blog/thumbs/thumb2_Samsung_Galaxy_Z_Fold_6_render_4.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "1540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 2,
+    tittle: "Xiamio",
+    tipe: "14",
+    images:
+      "https://iqmobile.ba/wp-content/uploads/2024/04/Xiaomi-14-Slika-1.jpg.jpg",
     Ram: "8 GB",
     Hdd: "128 GB",
     price: "540.00",
     group: "SamsungPhone",
   },
   {
-    id: 2,
+    id: 3,
+    tittle: "Nokia",
+    tipe: "XR21",
+    images:
+      "https://cdn11.bigcommerce.com/s-d9fb5mh9xf/images/stencil/720x720/products/844/1035/nokia_XR21-pine_green-front-back-int__45209.1682577177.png",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 4,
+    tittle: "Nokia",
+    tipe: "3.4",
+    images:
+      "https://getwired.co.ke/wp-content/uploads/2021/04/Nokia-3.4-Charcoal-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 5,
     tittle: "Samsung",
+    tipe: "S24 Ultra",
+    images:
+      "https://mobile-city.pl/pol_pl_Samsung-Galaxy-S24-Ultra-5G-12-512GB-Dual-Sim-Fioletowy-37416_1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 6,
+    tittle: "iPhone",
+    tipe: "15",
+    images:
+      "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1708674029/Croma%20Assets/Communication/Mobiles/Images/300665_0_vveh9a.png",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 7,
+    tittle: "Huawei",
     tipe: "S24 Ultra",
     images:
       "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
@@ -28,40 +77,253 @@ export const mobileData = [
     group: "SamsungPhone",
   },
   {
-    id: 2,
-    tittle: "Samsung",
-    tipe: "S24 Ultra",
-    images: { a55 },
+    id: 8,
+    tittle: "iPhone",
+    tipe: "16",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
     Ram: "8 GB",
     Hdd: "128 GB",
     price: "540.00",
     group: "SamsungPhone",
   },
   {
-    id: 2,
-    tittle: "Samsung",
-    tipe: "S24 Ultra",
-    images: { a35 },
+    id: 9,
+    tittle: "Nokia",
+    tipe: "G400",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
     Ram: "8 GB",
     Hdd: "128 GB",
     price: "540.00",
     group: "SamsungPhone",
   },
   {
-    id: 2,
-    tittle: "Samsung",
-    tipe: "S24 Ultra",
-    images: { s24Ultra },
+    id: 10,
+    tittle: "Nokia",
+    tipe: "G60",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
     Ram: "8 GB",
     Hdd: "128 GB",
     price: "540.00",
     group: "SamsungPhone",
   },
   {
-    id: 2,
-    tittle: "Samsung",
+    id: 11,
+    tittle: "Xiamio",
+    tipe: "13T Pro",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 12,
+    tittle: "Xiamio",
+    tipe: "13",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 13,
+    tittle: "Huawei",
     tipe: "S24 Ultra",
-    images: { zFold },
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 14,
+    tittle: "Samsung",
+    tipe: "S24",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 15,
+    tittle: "Huawei",
+    tipe: "S24 Ultra",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 16,
+    tittle: "iPhone",
+    tipe: "16 Pro Max",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 17,
+    tittle: "iPhone",
+    tipe: "16 Pro",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 18,
+    tittle: "Samsung",
+    tipe: "A73 5G",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 19,
+    tittle: "Xiamio",
+    tipe: "Black Shark 5 Pro",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 20,
+    tittle: "Huawei",
+    tipe: "S24 Ultra",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 21,
+    tittle: "Huawei",
+    tipe: "S24 Ultra",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 22,
+    tittle: "Samsung",
+    tipe: "A55 5G",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 23,
+    tittle: "iPhone",
+    tipe: "15 Pro Max",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 24,
+    tittle: "Nokia",
+    tipe: "G20",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 25,
+    tittle: "Samsung",
+    tipe: "A35 5G",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 26,
+    tittle: "Nokia",
+    tipe: "7.2",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 27,
+    tittle: "Xiamio",
+    tipe: "Redmi Note 11 Pro 5G",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 28,
+    tittle: "Huawei",
+    tipe: "S24 Ultra",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 29,
+    tittle: "Xiamio",
+    tipe: "Redmi Note 12 Pro Plus",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
+    Ram: "8 GB",
+    Hdd: "128 GB",
+    price: "540.00",
+    group: "SamsungPhone",
+  },
+  {
+    id: 30,
+    tittle: "iPhone",
+    tipe: "15 Pro",
+    images:
+      "https://yantranepal.com/wp-content/uploads/2023/03/Samsung-Galaxy-A73-5G-8GB-256GB-1.jpg",
     Ram: "8 GB",
     Hdd: "128 GB",
     price: "540.00",
