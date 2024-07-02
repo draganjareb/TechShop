@@ -1,3 +1,4 @@
+import Button from "../button/Button";
 import "./item.style.css";
 
 const Item = ({ item }) => {
@@ -8,7 +9,7 @@ const Item = ({ item }) => {
           <img src={item.images} alt={item.title} className="cardImages" />
         </div>
         <div className="cardData">
-          <h2>{item.title}</h2>
+          <h2>{item.tittle}</h2>
           <h3>{item.tipe}</h3>
           <div className="mobileDataAndPrice">
             <div>
@@ -19,6 +20,9 @@ const Item = ({ item }) => {
               <i>$</i>
               <span>{item.price}</span>
             </h3>
+          </div>
+          <div className="buttonDiv">
+            <Button label="Dodaj u korpu" />
           </div>
         </div>
       </div>
