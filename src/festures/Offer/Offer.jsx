@@ -6,6 +6,7 @@ const Offer = () => {
     <div className="offerPageWrapper">
       <div className="offerPageHolder">
         <Mobile />
+        
       </div>
     </div>
   );

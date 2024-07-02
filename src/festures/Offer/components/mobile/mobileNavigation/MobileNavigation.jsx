@@ -10,43 +10,35 @@ const MobileNavigation = () => {
   return (
     <div className="mobileNavWrapper">
       <div className="mobileNavHolder">
-        <Link to={{ pathname: "/offer/mobile/all" }} className="allPhone" >SVI</Link>
+        <Link to={{ pathname: "/offer/mobile" }} className="allPhone">
+          SVI
+        </Link>
 
-        <Link to={{ pathname: "/offer/mobile/samsung" }}>
-          <img
-            src={samsungLogo}
-            alt="samsungLogo"
-            className="samsungLogoPictures"
-          />
-        </Link>
-        <Link to={{ pathname: "/offer/mobile/iPhone" }}>
-          <img
-            src={iPhoneLogo}
-            alt="iPhoneLogo"
-            className="samsungLogoPictures"
-          />
-        </Link>
-        <Link to={{ pathname: "/offer/mobile/xiamio" }}>
-          <img
-            src={xiamioLogo}
-            alt="xiamioLogo"
-            className="samsungLogoPictures"
-          />
-        </Link>
-        <Link to={{ pathname: "/offer/mobile/huawei" }}>
-          <img
-            src={huaweiLogo}
-            alt="huaweiLogo"
-            className="samsungLogoPictures"
-          />
-        </Link>
-        <Link to={{ pathname: "/offer/mobile/nokia" }}>
-          <img
-            src={nokiaLogo}
-            alt="nokiaLogo"
-            className="samsungLogoPictures"
-          />
-        </Link>
+        <img
+          src={samsungLogo}
+          alt="samsungLogo"
+          className="samsungLogoPictures"
+        />
+
+        <img
+          src={iPhoneLogo}
+          alt="iPhoneLogo"
+          className="samsungLogoPictures"
+        />
+
+        <img
+          src={xiamioLogo}
+          alt="xiamioLogo"
+          className="samsungLogoPictures"
+        />
+
+        <img
+          src={huaweiLogo}
+          alt="huaweiLogo"
+          className="samsungLogoPictures"
+        />
+
+        <img src={nokiaLogo} alt="nokiaLogo" className="samsungLogoPictures" />
       </div>
     </div>
   );

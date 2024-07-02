@@ -1,4 +1,9 @@
 .mobileWrapper {
   padding-top: 130px;
-  height: 100vh;
+  background-color: white;
+}
+
+.mobileDataList {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
 }

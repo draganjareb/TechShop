@@ -1,18 +1,19 @@
 import OfferNavigation from "../offerNavigation/OfferNavigation";
 import "../mobile/mobile.style.css";
 import MobileNavigation from "./mobileNavigation/MobileNavigation";
+import { mobileData } from "../../../../data/mobileData/mobileData";
+import Item from "../../../../components/item/Item";
 
 const Mobile = () => {
   return (
     <div className="mobileWrapper">
       <OfferNavigation />
       <MobileNavigation />
-      <h1>Mobile</h1>
-      <h1>Mobile</h1>
-      <h1>Mobile</h1>
-      <h1>Mobile</h1>
-      <h1>Mobile</h1>
-      <h1>Mobile</h1>
+      <div className="mobileDataList">
+        {mobileData.map((item) => (
+          <Item key={item.key} item={item} />
+        ))}
+      </div>
     </div>
   );
 };
