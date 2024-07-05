@@ -4,14 +4,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .mobileNavHolder {
-  gap: 30px;
+  gap: 50px;
   font-size: 28px;
   color: black;
   text-transform: uppercase;
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -26,14 +28,19 @@
   font-weight: 600;
 }
 
-.samsungLogoPictures {
-  max-width: 150px;
+.mobileNavHolder img {
+  max-width: 100px;
   width: 100%;
-  height: 100px;
+  height: 80px;
   cursor: pointer;
+  filter: grayscale(1);
 }
 
-.allPhone {
+.mobileNavHolder img:hover {
+  filter: grayscale(0);
+}
+
+.mobileNavHolder a {
   font-size: 34px;
   border: none;
   background-color: white;
