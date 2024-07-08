@@ -25,7 +25,7 @@ const PageThree = () => {
       <div className="secondOffer">
         <div className="secondOfferText">
           <h2>Samsung</h2>
-          <h3 className="neoTV">Neo QLED 8K</h3>
+          <h3 className="neoTV">Neo OLED 8K</h3>
           <p>
             Neo QLED QN900D i QN800D su najnoviji Samsungovi 8K televizori, koji
             nude sliku od 7.680 puta 4.320 u veličinama u rasponu od 65 do 85

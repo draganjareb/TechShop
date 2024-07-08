@@ -322,6 +322,6 @@ export const mobileData = [
     Ram: "8 GB",
     Hdd: "1 TB",
     price: "817.00",
-    group: "IphonePhone",
+    group: "IPhonePhone",
   },
 ];

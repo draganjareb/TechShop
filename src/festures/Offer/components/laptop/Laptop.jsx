@@ -1,17 +1,12 @@
 import OfferNavigation from "../offerNavigation/OfferNavigation";
 import "../laptop/laptop.style.css";
+import LaptopNavigation from "./laptopNavigation/LaptopNavigation";
 
 const Laptop = () => {
   return (
     <div className="headphoneWrapper">
       <OfferNavigation />
-      <h1>Laptop</h1>
-      <h1>Laptop</h1>
-      <h1>Laptop</h1>
-      <h1>Laptop</h1>
-      <h1>Laptop</h1>
-      <h1>Laptop</h1>
-      <h1>Laptop</h1>
+      <LaptopNavigation />
     </div>
   );
 };
