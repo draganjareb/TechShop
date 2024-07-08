@@ -10,13 +10,7 @@ import Mobile from "./festures/Offer/components/mobile/Mobile";
 import Laptop from "./festures/Offer/components/laptop/Laptop";
 import TV from "./festures/Offer/components/TV/TV";
 import Tablets from "./festures/Offer/components/tablets/Tablets";
-import Headphone from "./festures/Offer/components/headphone/Headphone";
-// import HuaweiMobile from "./festures/Offer/components/mobile/components/huaweiMobile/HuaweiMobile";
-// import SamsungMobile from "./festures/Offer/components/mobile/components/samsungMobile/SamsungMobile";
-// import PhoneOffer from "./festures/Offer/components/mobile/components/phoneOffer/PhoneOffer";
-// import IPhoneMobile from "./festures/Offer/components/mobile/components/iPhoneMobile/IPhoneMobile";
-// import XiamioMobile from "./festures/Offer/components/mobile/components/xiamioMobile/xiamioMobile";
-// import NokiaMobile from "./festures/Offer/components/mobile/components/nokiaMobile/NokiaMobile";
+import HEadphone from "./festures/Offer/components/headphone/Headphone";
 
 const App = () => {
   return (
@@ -34,7 +28,7 @@ const App = () => {
           <Route path="/offer/laptop" element={<Laptop />} />
           <Route path="/offer/tv" element={<TV />} />
           <Route path="/offer/tablets" element={<Tablets />} />
-          <Route path="/offer/headphone" element={<Headphone />} />
+          <Route path="/offer/headphone" element={<HEadphone />} />
           {/* <Route path="/offer/mobile/all" element={<PhoneOffer />} /> */}
         </Routes>
       </BrowserRouter>

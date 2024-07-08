@@ -17,7 +17,7 @@ const Item = ({ item }) => {
               <p>HDD: {item.Hdd}</p>
             </div>
             <h3>
-              <i>$</i>
+              <i className="i">KM</i>
               <span>{item.price}</span>
             </h3>
           </div>

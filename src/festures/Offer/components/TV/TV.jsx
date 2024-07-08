@@ -1,17 +1,12 @@
 import OfferNavigation from "../offerNavigation/OfferNavigation";
 import "../TV/tv.style.css";
+import TvNavigation from "./TvNavigation/TvNavigation";
 
 const TV = () => {
   return (
     <div className="headphoneWrapper">
       <OfferNavigation />
-      <h1>TV</h1>
-      <h1>TV</h1>
-      <h1>TV</h1>
-      <h1>TV</h1>
-      <h1>TV</h1>
-      <h1>TV</h1>
-      <h1>TV</h1>
+      <TvNavigation />
     </div>
   );
 };
