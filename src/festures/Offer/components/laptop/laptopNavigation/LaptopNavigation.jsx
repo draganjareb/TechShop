@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { laptopData } from "../../../../../data/laptopData/laptopData";
 import { useState } from "react";
 import apple from "../../../../../assets/pictures/iPhoneLogo.png";
-import Item from "../../../../../components/item/Item";
+import Item from "../../../../../components/item/item/Item";
 import "./laptopNavigation.style.css";
 import lenovo from "../../../../../assets/pictures/lenovoLogo.png";
 import hp from "../../../../../assets/pictures/hpLogo.png";

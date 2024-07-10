@@ -4,7 +4,7 @@ import TvNavigation from "./TvNavigation/TvNavigation";
 
 const TV = () => {
   return (
-    <div className="headphoneWrapper">
+    <div className="tvPageWrapper">
       <OfferNavigation />
       <TvNavigation />
     </div>

@@ -1,9 +1,144 @@
-// export const dataTv = [{
-//     id: 
-//     tittle: 
-//     tipe: 
-//     images: 
-//     resolution: 
-//     price:
-//     group: 
-// }];
+export const dataTv = [
+  {
+    id: 1,
+    tittle: "Telefunken",
+    tipe: "50-Zoll TiVO",
+    images: "https://m.media-amazon.com/images/I/81j3kK8YNeL.jpg",
+    resolution: "4K HDR",
+    size: "50´´",
+    price: "689.00",
+    group: "TelefunkenTV",
+  },
+  {
+    id: 2,
+    tittle: "LG",
+    tipe: "B4 OLED",
+    images:
+      "https://www.lg.com/au/images/tvs/md07592719/gallery/OLED_B4_55__LEFT-1600.jpg",
+    resolution: "4K",
+    size: "60´´",
+    price: "1990.00",
+    group: "LGTV",
+  },
+  {
+    id: 3,
+    tittle: "Hisense",
+    tipe: "U7N",
+    images:
+      "https://www.bug.hr/img/hisense-u7n-je-pristupacan-mini-led-tv-s-qled-tehnologijom-gaming-mogucnostima_o4QqDL.jpg",
+    resolution: "4K",
+    size: "65´´",
+    price: "1680.00",
+    group: "HisenseTV",
+  },
+  {
+    id: 4,
+    tittle: "Samsung",
+    tipe: "Q60D QLED",
+    images:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXByTtdRux9Wxp-ZUyAgWAYbMg3GYiqXTmJQ&s",
+    resolution: "4K",
+    size: "55´´",
+    price: "1380.00",
+    group: "SamsungTV",
+  },
+  {
+    id: 5,
+    tittle: "Hisense",
+    tipe: "U8N",
+    images:
+      "https://www.cramptonandmoore.co.uk/pub/media/catalog/product/cache/719e2e23f208a0bf849e0a6e26af44ca/u/8/u8n_1.jpg",
+    resolution: "4K UHD",
+    size: "65´´",
+    price: "3960.00",
+    group: "HisenseTV",
+  },
+  {
+    id: 6,
+    tittle: "DVOX",
+    tipe: "43VAF550B",
+    images:
+      "https://www.voxelectronics.com/files/thumbs/files/images/slike_proizvoda/thumbs_1200/43GOF050B_1200_1200px.png",
+    resolution: "UHD",
+    size: "43´´",
+    price: "890.00",
+    group: "VOXTV",
+  },
+  {
+    id: 7,
+    tittle: "VOX",
+    tipe: "SMART LED TV",
+    images:
+      "vhttps://domod.ba/assets/photos/365x270/vox-uhd-tv-50wos315b_VOX50WOS315B.jpg",
+    resolution: "UHD",
+    size: "50´´",
+    price: "1199.00",
+    group: "VOXTV",
+  },
+  {
+    id: 8,
+    tittle: "LG",
+    tipe: "C4 OLED",
+    images:
+      "https://www.voxelectronics.com/files/thumbs/files/images/slike_proizvoda/thumbs_320/50WOS315B_1_320px.png",
+    resolution: "4K",
+    size: "65´´",
+    price: "4350.00",
+    group: "LGTV",
+  },
+  {
+    id: 9,
+    tittle: "Samsung",
+    tipe: "QN90D QLED",
+    images:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn1emFKBVC71FbprQ6SE_rE4UcNRJsU1RpIg&s",
+    resolution: "4K",
+    size: "65´´",
+    price: "5340.00",
+    group: "SamsungTV",
+  },
+  {
+    id: 10,
+    tittle: "Samsung",
+    tipe: "Q60D QLED",
+    images:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXByTtdRux9Wxp-ZUyAgWAYbMg3GYiqXTmJQ&s",
+    resolution: "4K",
+    size: "75´´",
+    price: "2800.00",
+    group: "SamsungTV",
+  },
+  {
+    id: 11,
+    tittle: "Telefunken",
+    tipe: "50-Zoll QLED",
+    images:
+      "https://m.media-amazon.com/images/I/81Xh7JFXhpL._AC_UF894,1000_QL80_.jpg",
+    resolution: "4K UHD",
+    size: "50´´",
+    price: "1435.00",
+    group: "TelefunkenTV",
+  },
+  {
+    id: 12,
+    tittle: "Telefunken",
+    tipe: "43CD5551",
+    images:
+      "https://megashop.ba/pub/media/catalog/product/cache/image/800x800/e9c3970ab036de70892d86c6d221abfe/h/t/httpwww.megashop.bapubmediamegashopfotkemegashopfinaltehnika1.multimedija1.televizori600204.led-tv-telefunken-43cd5551.jpg",
+    resolution: "UHD",
+    size: "43´´",
+    price: "579.00",
+    group: "TelefunkenTV",
+  },
+  {
+    id: 13,
+    tittle: "Samsung",
+    tipe: "QN856D QLED",
+    images:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS2jxwL5vt2XQspGndpIll2Ea1V8NblZI4OQ&s",
+    resolution: "4K UHD HDR",
+    size: "55´´",
+    price: "2390.00",
+    group: "SamsungTV",
+  },
+];

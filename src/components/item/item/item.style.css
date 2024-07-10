@@ -117,3 +117,26 @@ p {
   font-size: 16px;
   padding-right: 3px;
 }
+
+.priceData {
+  padding-right: 20px;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+.item2Card {
+  max-width: 300px;
+  width: 100%;
+  height: 600px;
+  border-radius: 5px;
+  margin-top: 60px;
+  flex-direction: column;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.item2Card span {
+  color: rgb(235, 47, 40);
+  font-size: 28px;
+  padding-left: 5px;
+}
