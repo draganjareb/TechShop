@@ -5,7 +5,7 @@ import iPhoneLogo from "../../../../../assets/pictures/iPhoneLogo.png";
 import xiamioLogo from "../../../../../assets/pictures/xiamioLogo.png";
 import huaweiLogo from "../../../../../assets/pictures/huaweiLogo.png";
 import nokiaLogo from "../../../../../assets/pictures/nokiaLogo.png";
-import Item from "../../../../../components/item/Item";
+import Item from "../../../../../components/item/item/Item";
 import { mobileData } from "../../../../../data/mobileData/mobileData";
 import { useState } from "react";
 

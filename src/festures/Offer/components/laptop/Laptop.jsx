@@ -4,7 +4,7 @@ import LaptopNavigation from "./laptopNavigation/LaptopNavigation";
 
 const Laptop = () => {
   return (
-    <div className="headphoneWrapper">
+    <div className="laptopConstWrapper">
       <OfferNavigation />
       <LaptopNavigation />
     </div>
