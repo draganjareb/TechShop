@@ -1,0 +1,108 @@
+.cartItemWrapper {
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.orderCart {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  gap: 20px;
+  height: 130px;
+  max-width: 570px;
+  width: 100%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.cartItemHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orderCartText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 610px;
+  width: 100%;
+  padding-right: 15px;
+}
+
+.nameAndDescription h4,
+.nameAndDescription h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.priceAndQuantity {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.cartProductPictures {
+  max-width: 80px;
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.recycleBin {
+  max-width: 30px;
+  height: 100%;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.quantity {
+  max-width: 100px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.quantity span {
+  font-size: 24px;
+  max-width: 15px;
+  width: 100%;
+  padding: 10px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noItem {
+  font-size: 40px;
+  font-style: italic;
+  color: grey;
+}
+
+.cartItemRightSide span {
+  color: red;
+  font-style: italic;
+}
+
+.cartItemRightSide h2 {
+  font-size: 34px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
