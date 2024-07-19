@@ -1,7 +1,10 @@
 import Button from "../../button/Button";
 import "./item.style.css";
+import { useCartItemStore } from "../../../store/cartStore/cart";
 
 const Item = ({ item }) => {
+  const { addItemToOrderCart } = useCartItemStore();
+
   return (
     <div className="itemHolder">
       <div className="itemCard">
@@ -22,7 +25,10 @@ const Item = ({ item }) => {
             </h3>
           </div>
           <div className="buttonDiv">
-            <Button label="Dodaj u korpu" />
+            <Button
+              label="Dodaj u korpu"
+              onClickHandler={() => addItemToOrderCart(item)}
+            />
           </div>
         </div>
       </div>
