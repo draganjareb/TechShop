@@ -1,4 +1,6 @@
 .headphoneWrapper {
   padding-top: 130px;
-  height: 100vh;
+  background-color: white;
+  padding-bottom: 20px;
+  width: 100%;
 }

@@ -1,6 +1,6 @@
 export const laptopData = [
   {
-    id: 1,
+    id: 31,
     tittle: "Lenovo",
     tipe: "IdeaPad 1",
     images:
@@ -12,7 +12,7 @@ export const laptopData = [
     group: "LenovoGroup",
   },
   {
-    id: 2,
+    id: 32,
     tittle: "Dell",
     tipe: "XPS 15",
     images:
@@ -24,7 +24,7 @@ export const laptopData = [
     group: "DellGroup",
   },
   {
-    id: 3,
+    id: 33,
     tittle: "HP",
     tipe: "Elite x360",
     images:
@@ -36,7 +36,7 @@ export const laptopData = [
     group: "HpGroup",
   },
   {
-    id: 4,
+    id: 34,
     tittle: "Apple",
     tipe: "M3 MacBook Pro",
     images:
@@ -48,7 +48,7 @@ export const laptopData = [
     group: "AppleGroup",
   },
   {
-    id: 5,
+    id: 35,
     tittle: "Apple",
     tipe: "M2 Max Mini",
     images:
@@ -60,7 +60,7 @@ export const laptopData = [
     group: "AppleGroup",
   },
   {
-    id: 6,
+    id: 36,
     tittle: "Asus",
     tipe: "Vivobook S 14 Flip",
     images: "https://www.plus.ba/media/image/53432/original/123872_3.jpg",
@@ -71,7 +71,7 @@ export const laptopData = [
     group: "AsusGroup",
   },
   {
-    id: 7,
+    id: 37,
     tittle: "Asus",
     tipe: "M515",
     images: "https://m.media-amazon.com/images/I/81HUTXm2ClL.jpg",
@@ -82,7 +82,7 @@ export const laptopData = [
     group: "AsusGroup",
   },
   {
-    id: 8,
+    id: 38,
     tittle: "HP",
     tipe: "Spectre x360",
     images:
@@ -94,7 +94,7 @@ export const laptopData = [
     group: "HpGroup",
   },
   {
-    id: 9,
+    id: 39,
     tittle: "Dell",
     tipe: "Inspiron 14 Plus",
     images:
@@ -105,7 +105,7 @@ export const laptopData = [
     group: "DellGroup",
   },
   {
-    id: 10,
+    id: 40,
     tittle: "Dell",
     tipe: "Inspiron 15",
     images:
@@ -117,7 +117,7 @@ export const laptopData = [
     group: "DellGroup",
   },
   {
-    id: 11,
+    id: 41,
     tittle: "Asus",
     tipe: "Vivobook Pro 15 OLED",
     images: "https://3dbox.ba/wp-content/uploads/2023/09/n1.png",
@@ -128,7 +128,7 @@ export const laptopData = [
     group: "AsusGroup",
   },
   {
-    id: 12,
+    id: 42,
     tittle: "Asus",
     tipe: "Vivobook S 14 Flip OLED",
     images: "https://m.media-amazon.com/images/I/71Oq6XMyK5L._AC_SX425_.jpg",
@@ -139,7 +139,7 @@ export const laptopData = [
     group: "AsusGroup",
   },
   {
-    id: 13,
+    id: 43,
     tittle: "Apple",
     tipe: "M2 MacBook Air",
     images:
@@ -151,7 +151,7 @@ export const laptopData = [
     group: "AppleGroup",
   },
   {
-    id: 14,
+    id: 44,
     tittle: "Apple",
     tipe: "M3 MacBook Air",
     images:
@@ -163,7 +163,7 @@ export const laptopData = [
     group: "AppleGroup",
   },
   {
-    id: 15,
+    id: 45,
     tittle: "Lenovo",
     tipe: "IdeaPad 3",
     images:
@@ -175,7 +175,7 @@ export const laptopData = [
     group: "LenovoGroup",
   },
   {
-    id: 16,
+    id: 46,
     tittle: "Lenovo",
     tipe: "IdeaPad Flex 5",
     images:
@@ -187,7 +187,7 @@ export const laptopData = [
     group: "LenovoGroup",
   },
   {
-    id: 17,
+    id: 47,
     tittle: "HP",
     tipe: "Pavilion",
     images:
@@ -199,7 +199,7 @@ export const laptopData = [
     group: "HpGroup",
   },
   {
-    id: 18,
+    id: 48,
     tittle: "HP",
     tipe: "ZBook Studio",
     images:
@@ -211,7 +211,7 @@ export const laptopData = [
     group: "HpGroup",
   },
   {
-    id: 19,
+    id: 49,
     tittle: "Dell",
     tipe: "XPS 13",
     images: "https://www.itgigant.nl/wp-content/uploads/2023/10/1200x954.jpg",
@@ -222,7 +222,7 @@ export const laptopData = [
     group: "DellGroup",
   },
   {
-    id: 20,
+    id: 50,
     tittle: "Dell",
     tipe: "Latitude 7455",
     images:
@@ -234,7 +234,7 @@ export const laptopData = [
     group: "DellGroup",
   },
   {
-    id: 21,
+    id: 51,
     tittle: "Apple",
     tipe: "MacBook M3 Pro",
     images:
@@ -246,7 +246,7 @@ export const laptopData = [
     group: "AppleGroup",
   },
   {
-    id: 22,
+    id: 52,
     tittle: "Asus",
     tipe: "BR1100 F",
     images:
@@ -258,7 +258,7 @@ export const laptopData = [
     group: "AsusGroup",
   },
   {
-    id: 23,
+    id: 53,
     tittle: "Lenovo",
     tipe: "IdeaIpad 15.6",
     images:
@@ -270,7 +270,7 @@ export const laptopData = [
     group: "LenovoGroup",
   },
   {
-    id: 24,
+    id: 54,
     tittle: "Lenovo",
     tipe: "IdeaPad Slim 3",
     images:
@@ -282,7 +282,7 @@ export const laptopData = [
     group: "LenovoGroup",
   },
   {
-    id: 25,
+    id: 55,
     tittle: "HP",
     tipe: "OMEN Gaming",
     images:

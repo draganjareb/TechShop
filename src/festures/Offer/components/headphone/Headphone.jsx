@@ -1,17 +1,12 @@
 import OfferNavigation from "../offerNavigation/OfferNavigation";
 import "../headphone/headphone.style.css";
+import HeadphoneNavigation from "./headphoneNavigation/HeadphoneNavigation";
 
 const Headphone = () => {
   return (
     <div className="headphoneWrapper">
       <OfferNavigation />
-      <h1>HeadPhone</h1>
-      <h1>HeadPhone</h1>
-      <h1>HeadPhone</h1>
-      <h1>HeadPhone</h1>
-      <h1>HeadPhone</h1>
-      <h1>HeadPhone</h1>
-      <h1>HeadPhone</h1>
+      <HeadphoneNavigation />
     </div>
   );
 };

@@ -2,7 +2,7 @@ import "../item/item.style.css";
 import Button from "../../button/Button";
 import { useCartItemStore } from "../../../store/cartStore/cart";
 
-const Item2 = ({ item }) => {
+const Item3 = ({ item }) => {
   const { addItemToOrderCart } = useCartItemStore();
 
   return (
@@ -16,7 +16,7 @@ const Item2 = ({ item }) => {
           <h3>{item.tipe}</h3>
           <div className="mobileDataAndPrice">
             <div>
-              <p>Rezolucija: {item.resolution}</p>
+              <p>HDD: {item.memory}</p>
               <p>Veličina: {item.size}</p>
             </div>
           </div>
@@ -38,4 +38,4 @@ const Item2 = ({ item }) => {
   );
 };
 
-export default Item2;
+export default Item3;
