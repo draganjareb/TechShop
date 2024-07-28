@@ -55,6 +55,7 @@
 .pageOneTextRight {
   animation: 1.5s rightSite ease-in-out;
   position: relative;
+  padding-top: 25px;
 }
 
 @keyframes rightSite {

@@ -1,6 +1,6 @@
 export const dataTv = [
   {
-    id: 1,
+    id: 56,
     tittle: "Telefunken",
     tipe: "50-Zoll TiVO",
     images: "https://m.media-amazon.com/images/I/81j3kK8YNeL.jpg",
@@ -10,7 +10,7 @@ export const dataTv = [
     group: "TelefunkenTV",
   },
   {
-    id: 2,
+    id: 57,
     tittle: "LG",
     tipe: "B4 OLED",
     images:
@@ -21,7 +21,7 @@ export const dataTv = [
     group: "LGTV",
   },
   {
-    id: 3,
+    id: 58,
     tittle: "Hisense",
     tipe: "U7N",
     images:
@@ -32,7 +32,7 @@ export const dataTv = [
     group: "HisenseTV",
   },
   {
-    id: 4,
+    id: 59,
     tittle: "Samsung",
     tipe: "Q60D QLED",
     images:
@@ -43,7 +43,7 @@ export const dataTv = [
     group: "SamsungTV",
   },
   {
-    id: 5,
+    id: 60,
     tittle: "Hisense",
     tipe: "U8N",
     images:
@@ -54,7 +54,7 @@ export const dataTv = [
     group: "HisenseTV",
   },
   {
-    id: 6,
+    id: 61,
     tittle: "DVOX",
     tipe: "43VAF550B",
     images:
@@ -65,18 +65,18 @@ export const dataTv = [
     group: "VOXTV",
   },
   {
-    id: 7,
+    id: 62,
     tittle: "VOX",
     tipe: "SMART LED TV",
     images:
-      "vhttps://domod.ba/assets/photos/365x270/vox-uhd-tv-50wos315b_VOX50WOS315B.jpg",
+      "https://domod.ba/assets/photos/365x270/vox-uhd-tv-50wos315b_VOX50WOS315B.jpg",
     resolution: "UHD",
     size: "50´´",
     price: "1199.00",
     group: "VOXTV",
   },
   {
-    id: 8,
+    id: 63,
     tittle: "LG",
     tipe: "C4 OLED",
     images:
@@ -87,7 +87,7 @@ export const dataTv = [
     group: "LGTV",
   },
   {
-    id: 9,
+    id: 64,
     tittle: "Samsung",
     tipe: "QN90D QLED",
     images:
@@ -98,7 +98,7 @@ export const dataTv = [
     group: "SamsungTV",
   },
   {
-    id: 10,
+    id: 65,
     tittle: "Samsung",
     tipe: "Q60D QLED",
     images:
@@ -109,7 +109,7 @@ export const dataTv = [
     group: "SamsungTV",
   },
   {
-    id: 11,
+    id: 66,
     tittle: "Telefunken",
     tipe: "50-Zoll QLED",
     images:
@@ -120,7 +120,7 @@ export const dataTv = [
     group: "TelefunkenTV",
   },
   {
-    id: 12,
+    id: 67,
     tittle: "Telefunken",
     tipe: "43CD5551",
     images:
@@ -131,7 +131,7 @@ export const dataTv = [
     group: "TelefunkenTV",
   },
   {
-    id: 13,
+    id: 68,
     tittle: "Samsung",
     tipe: "QN856D QLED",
     images:
@@ -140,5 +140,92 @@ export const dataTv = [
     size: "55´´",
     price: "2390.00",
     group: "SamsungTV",
+  },
+  {
+    id: 69,
+    tittle: "Hisense",
+    tipe: "U7H",
+    images:
+      "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6521/6521277_sd.jpg",
+    resolution: "4K UHD",
+    size: "85´´",
+    price: "2435.00",
+    group: "HisenseTV",
+  },
+  {
+    id: 70,
+    tittle: "LG",
+    tipe: "G4 OLED",
+    images:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3-hLLfozfLRZkgzOLCYhXsZS3C3ydQOAqUQ&s",
+    resolution: "4K",
+    size: "65´´",
+    price: "4100.00",
+    group: "LGTV",
+  },
+  {
+    id: 71,
+    tittle: "LG",
+    tipe: "UQ 8000",
+    images:
+      "https://www.lg.com/content/dam/channel/wcms/ca_en/images/tvs/86uq8000aub_acc_enci_ca_en_c/gallery/DZ-1.jpg",
+    resolution: "4K UHD",
+    size: "85´´",
+    price: "2800.00",
+    group: "LGTV",
+  },
+  {
+    id: 72,
+    tittle: "Samsung",
+    tipe: "The Frame 2024 QLED",
+    images:
+      "https://decotvframes.com/cdn/shop/files/2024tv1_1200x.jpg?v=1711128844",
+    resolution: "4K",
+    size: "43´´",
+    price: "2540.00",
+    group: "SamsungTV",
+  },
+  {
+    id: 73,
+    tittle: "Telefunken",
+    tipe: "55UAG8030",
+    images:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdhfWXUAB_PtETQBLrwTiPVFH5898ZbW8TRQ&s",
+    resolution: "4K",
+    size: "55´´",
+    price: "2460.00",
+    group: "TelefunkeTV",
+  },
+  {
+    id: 74,
+    tittle: "Telefunken",
+    tipe: "43QAG9030",
+    images:
+      "https://thumbor.arvutitark.ee/8P713o1ZGtKiT5lBnm4ZAylJIZ8=/trim/fit-in/800x800/https%3A%2F%2Fstatic.arvutitark.ee%2Fpublic%2Fmedia-hub-olev%2F2023%2F08%2F447334%2Fb00581eb-3552-443d-b433-e1b2df2fff6b.jpg",
+    resolution: "4K UHD",
+    size: "43´´",
+    price: "2100.00",
+    group: "TelefunkenTV",
+  },
+  {
+    id: 75,
+    tittle: "Hisense",
+    tipe: "U8H",
+    images:
+      "https://m.media-amazon.com/images/I/616lx9j1KoL._AC_UF1000,1000_QL80_.jpg",
+    resolution: "UHD",
+    size: "43´´",
+    price: "1980.00",
+    group: "HisenseTV",
+  },
+  {
+    id: 76,
+    tittle: "VOX",
+    tipe: "55VAU754B",
+    images: "https://domod.ba/assets/photos/365x270/VOX55VAU754B.jpg",
+    resolution: "4K",
+    size: "43´´",
+    price: "699.00",
+    group: "VOXTV",
   },
 ];

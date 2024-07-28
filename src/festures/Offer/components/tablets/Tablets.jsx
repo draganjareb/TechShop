@@ -1,17 +1,12 @@
 import OfferNavigation from "../offerNavigation/OfferNavigation";
-import "../tablets/tablets.style.css";
+import "../mobile/mobile.style.css";
+import TabletNavigation from "./components/TabletNavigation";
 
 const Tablets = () => {
   return (
-    <div className="headphoneWrapper">
+    <div className="mobileWrapper">
       <OfferNavigation />
-      <h1>Tablet</h1>
-      <h1>Tablet</h1>
-      <h1>Tablet</h1>
-      <h1>Tablet</h1>
-      <h1>Tablet</h1>
-      <h1>Tablet</h1>
-      <h1>Tablet</h1>
+      <TabletNavigation />
     </div>
   );
 };

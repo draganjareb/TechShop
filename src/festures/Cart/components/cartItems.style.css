@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: top;
+  height: 100%;
 }
 
 .orderCart {
@@ -22,7 +23,7 @@
 .cartItemHolder {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .orderCartText {
@@ -94,7 +95,11 @@
   font-size: 40px;
   font-style: italic;
   color: grey;
+  padding-left: 35px;
+  margin-top: 25px;
 }
+
+/* --------------------------------- */
 
 .cartItemRightSide span {
   color: red;
@@ -102,7 +107,101 @@
 }
 
 .cartItemRightSide h2 {
-  font-size: 34px;
+  font-size: 30px;
   margin-left: 40px;
-  margin-top: 10px;
+  margin-top: 30px;
+}
+
+.cartItemRightSide {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.cartTittle {
+  text-transform: uppercase;
+}
+
+.cartItemRightSide hr {
+  max-width: 510px;
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+  padding-right: 10px;
+  margin-top: 30px;
+}
+
+.optionClass {
+  padding-right: 45px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  max-width: 350px;
+  width: 100%;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.creditCardData {
+  padding-right: 45px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  max-width: 450px;
+  width: 100%;
+  font-weight: 800;
+  border-radius: 5px;
+}
+
+.paySpan {
+  color: red;
+  padding-left: 40px;
+}
+
+.cartItemRightSide button {
+  padding-right: 40px;
+  max-width: 250px;
+  width: 100%;
+  background-color: lightgrey;
+  color: black;
+  border-radius: 25px;
+  border: 1px solid black;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.cartItemRightSide button:hover {
+  color: white;
+  background-color: red;
+}
+
+.inputData {
+  padding-right: 45px;
+  margin-left: 35px;
+  margin-bottom: 15px;
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  max-width: 350px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.adressData h2 {
+  margin: 10px 35px;
 }

@@ -1,15 +1,17 @@
 import { useCartItemStore } from "../../../store/cartStore/cart";
 import "./cartItems.style.css";
 import recycleBin from "../../../assets/pictures/recycleBin.png";
+import Button from "../../../components/button/Button";
 
 const CartItem = () => {
   const {
     cart,
-    clearOrderCart,
+    removeItemFromOrderCart,
     decreaseItemQuantity,
-    removeItemFromCart,
     increaseItemQuantity,
   } = useCartItemStore();
+
+  const total = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
 
   return (
     <div className="cartItemWrapper">
@@ -40,7 +42,7 @@ const CartItem = () => {
                     src={recycleBin}
                     alt="recycleBin"
                     className="recycleBin"
-                    onClick={() => removeItemFromCart(item)}
+                    onClick={() => removeItemFromOrderCart(item.id)}
                   />
                 </div>
               </div>
@@ -51,9 +53,44 @@ const CartItem = () => {
         )}
       </div>
       <div className="cartItemRightSide">
-        <h2>
+        <h2 className="cartTittle">
           Vaša korpa sadrži <span>{cart.length}</span> proizvoda
         </h2>
+        <hr></hr>
+        <div>
+          <h2>
+            Ukupna cijena: <span>{total.toFixed(2)}</span> KM
+          </h2>
+        </div>
+        <hr></hr>
+        <div>
+          <h2>Način plaćanja:</h2>
+          <select className="optionClass">
+            <option value=""></option>
+            <option value="">ODMAH</option>
+            <option value="">POUZEĆU</option>
+          </select>
+        </div>
+        <div>
+          <h2>Unesite vaš broj kartice:</h2>
+          <input
+            placeholder=" _ _ _ _ / _ _ _ _ / _ _ _ _ / _ _ _ _"
+            className="creditCardData"
+          />
+          <h3 className="paySpan">* za kupovinu koja se plaćaja odmah</h3>
+          <Button label="Kupi" />
+          <div className="adressData">
+            <h2>Vaša adresa:</h2>
+            <input placeholder="Ulica" className="inputData" />
+            <h2>Grad:</h2>
+            <input placeholder="Grad" className="inputData" />
+            <h2>Poštanski broj:</h2>
+            <input placeholder="Poštanski broj" className="inputData" />
+            <h2>Kontakt broj:</h2>
+            <input placeholder="Kontakt broj" className="inputData" />
+            <Button label="Pošalji" />
+          </div>
+        </div>
       </div>
     </div>
   );
